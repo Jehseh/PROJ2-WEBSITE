@@ -19,6 +19,15 @@ body {
     overflow: hidden;
 }
 
+.maincontent.push.static{
+    height: initial;
+    overflow-y: auto;
+}
+    
+.maincontent.push.static .header{
+    position: fixed;
+}
+
 .header {
     position: absolute;
     background-color: #555;
@@ -440,6 +449,8 @@ nav {
     height: 630px;
     border: black 1px solid;
 }
+
+
 
 @media (max-width: 600px) {
     .header .nav {
