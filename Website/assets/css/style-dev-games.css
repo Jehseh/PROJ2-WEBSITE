@@ -16,3 +16,27 @@
 .search_button{
     height: inherit;
 }
+
+.contentwidth{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.devbanner{
+ width: 100%;
+ border: 1px solid gray;
+ height: 300px;
+}
+
+.recentrelease{
+    margin: 10px 0;
+}
+
+.releasephoto{
+    border: 1px solid gray;
+    height: 300px;
+}
+
+.h3name{
+    margin-top: -5px;
+}
