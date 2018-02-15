@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Dev's Story</title>
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/pushy.css">
@@ -22,6 +22,10 @@
 <body>
     <?php 
     include 'nav.php';
+    ?>
+    </div>
+    <?php
+    include 'history.php';
     ?>
 </body>
 </html>
