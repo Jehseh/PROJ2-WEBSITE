@@ -20,13 +20,8 @@
 </head>
 
 <body>
-    <?php 
-    include 'nav.php';
-    ?>
-    </div>
     <?php
     include 'history.php';
-    include 'footer.php';
     ?>
 </body>
 </html>
