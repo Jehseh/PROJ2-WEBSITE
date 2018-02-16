@@ -92,30 +92,6 @@ $(document).ready(function () {
             $("#slide-b-b").hide();
         }, slideSpeed);
     });
-
-    var audio = new Audio();
-    audio.src = "assets/audio/bgm.ogg";
-    audio.loop = true;
-    audio.play();
-
-    $("#playbutton").click(function () {
-        switch (audio.paused) {
-            case true:
-                audio.play();
-                $("#playButtonImg").css({
-                    "background-color": "#eee"
-                });
-                break;
-            case false:
-                audio.pause();
-                $("#playButtonImg").css({
-                    "background-color": "transparent"
-                });
-                break;
-        }
-    });
-
-
 });
 
 function callback(event) {

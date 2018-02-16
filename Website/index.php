@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -26,6 +26,7 @@
     </div>
     <?php
     include 'history.php';
+    include 'footer.php';
     ?>
 </body>
 </html>
