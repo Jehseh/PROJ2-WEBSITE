@@ -4,19 +4,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Dev's Story - Developers - Coffee Brain Games</title>
-    <link rel="stylesheet" href="../assets/css/pushy.css">
+    <!-- <link rel="stylesheet" href="../assets/css/pushy.css"> -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../assets/css/style-dev-games.css">
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assets/css/lightbox.css">
-    <link rel="stylesheet" href="../assets/css/jquery.fancybox.min.css">
+    <title>The Dev's Story - Developers - Coffee Brain Games</title>
 </head>
 
 <body>
-    <nav class="pushy pushy-right">
+    <!-- <nav class="pushy pushy-right">
         <div class="pushy-content">
             <ul>
                 <li class="pushy-link">
@@ -33,10 +30,9 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <div class="site-overlay"></div>
     <div class="maincontent push static">
-
         <div class="header">
 
             <div class="nav">
@@ -59,7 +55,7 @@
         </div>
         <!-- HEADER -->
         <!-- CONTENT -->
-        <div class="contentpage contentwidth">
+        <div class="contentpage contentwidth container">
             <div class="item">
                 <div class="devbanner">DEVBANNER HERE</div>
                 <h1 class="center">Coffee Brain Games</h1>
@@ -88,19 +84,34 @@
                 <div class="devgames">
                     <h2>Games</h2>
                     <div class="devgamescontainer">
-                        <div class="row">
-                            <div class="col-lg-4 gamesitem">
-                                <h3>Warrior Defense</h3>
-                                <h4>Price: Free</h4>
-                                <p>Ea dignissimos velit corrupti aperiam corporis fugit pariatur libero consequatur nam ipsam
-                                    ad, aut, mollitia ab consectetur dolor sed aspernatur!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, a?</p>
-                                <a href="#" class="dev_button">Check Out Their Games</a>
-                                <br>
-                                <a href="#" class="dev_button">Check Out Their Website Here</a>
+                        <div id="logoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <ol class="carousel-indicators  black">
+                                <li data-target="#logoCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#logoCarousel" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="panel panel-default">
+                                                        <div class="panel-header">image here</div>
+                                                    <div class="panel-body">
+                                                <h3>Warrior Defense</h3>
+                                                <h4>Price: Free</h4>
+                                                <p>Ea dignissimos velit corrupti aperiam corporis fugit pariatur libero consequatur nam ipsam
+                                                    ad, aut, mollitia ab consectetur dolor sed aspernatur!</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, a?</p>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <img src="../assets/img/badges/gp-badge.png" alt="Get it on Google Play">
+                                            </div>
+                                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                    
                 </div>
                 <hr>
                 <div class="devaboutandcontact">
@@ -126,9 +137,9 @@
             Test
         </footer>
 </body>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/pushy.min.js"></script>
-<script src="assets/js/script.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/pushy.min.js"></script>
+<script src="../assets/js/script.js"></script>
 
 </html>
