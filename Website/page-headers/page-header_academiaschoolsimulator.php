@@ -1,6 +1,6 @@
 <h1 class="h3name">Warrior Defense</h1>
 <div class="panel panel-default">
-    <div class="panel-header"><div class="devbanner">TESTER</div></div>
+    <div class="panel-header"><div class="mainphoto">TESTER</div></div>
     
     <div class="panel-body">
         <h4>Price: FREE</h4>

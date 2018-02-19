@@ -61,4 +61,9 @@ hr {
     z-index: 10;
 }
 
-
+.mainphoto{
+    width:600px;
+    height:338px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
