@@ -29,7 +29,7 @@
             </a>
             <button class="menu-btn">&#9776;</button>
         </div>
-        <div class="search-box">
+        <div class="search-boxes">
                 <form action="">
                     <input type="text" name="search_box" class="search_box">
                     <button name="search" class="search_button btn btn-default">Search</button>

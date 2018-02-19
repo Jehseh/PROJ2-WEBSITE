@@ -24,7 +24,7 @@
                 <h1> Games </h1>
                 <div class="panel panel-default">
                     <div class="carousel" id="gamesCarousel" data-ride="carousel" data-interval="false">
-                        <ol class="carousel-indicators black">
+                        <ol class="carousel-indicators black indicators-color">
                             <li data-target="#gamesCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#gamesCarousel" data-slide-to="1"></li>
                             <li data-target="#gamesCarousel" data-slide-to="2"></li>
@@ -89,12 +89,6 @@
                                         ?>
                                     </div>
                                 </div>
-                                <a href="#gamesCarousel" class="left carousel-control" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                </a>
-                                <a href="#gamesCarousel" class="right carousel-control" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                </a>
                             </div>
                         </div>
                     </div>
