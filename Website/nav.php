@@ -14,11 +14,10 @@
     <!-- Header -->
     <div class="header">
         <div class="nav">
-            <a href="#" class="navlogo"><img src="assets/img/logo.png" style="display: block; width: 200px;" alt=""></a>
             <a href="index.html" class="nav-item" id="historytab">
                 <span>History</span>
             </a>
-            <a href="games.html" class="nav-item" id="gamestab">
+            <a href="games.php" class="nav-item" id="gamestab">
                 <span>Games</span>
             </a>
             <a href="developers.html" class="nav-item" id="devtab">
@@ -30,4 +29,10 @@
             </a>
             <button class="menu-btn">&#9776;</button>
         </div>
+        <div class="search-box">
+                <form action="">
+                    <input type="text" name="search_box" class="search_box">
+                    <button name="search" class="search_button btn btn-default">Search</button>
+                </form>
+            </div>
     </div>
