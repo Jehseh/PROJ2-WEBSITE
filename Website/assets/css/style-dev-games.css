@@ -62,8 +62,59 @@ hr {
 }
 
 .mainphoto{
-    width:600px;
-    height:338px;
+    --widthmain:853px;
+    width: var(--widthmain);
+    height:calc(var(--widthmain)*9/16);
     border: 1px solid black;
     margin: 0 auto;
+}
+
+.subphoto{
+    --width: 250px;
+    width: var(--width);
+    height:calc(var(--width)*9/16);
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+@media (min-width: 1367px) and (max-width:1920px){
+    .non-phone{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .non-phone{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+    .mainphoto{
+        --widthmain:700px;
+        width: var(--widthmain);
+        height:calc(var(--widthmain)*9/16);
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+
+    .subphoto{
+        --width: 198px;
+        width: var(--width);
+        height:calc(var(--width)*9/16);
+        border: 1px solid black;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .non-phone{
+        display:none;
+    }
+    .phone{
+        display: block;
+    }
 }
