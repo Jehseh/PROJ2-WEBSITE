@@ -77,6 +77,10 @@ hr {
     margin: 10px auto;
 }
 
+.top-margin{
+    margin-top: 10px;
+}
+
 @media (min-width: 1367px) and (max-width:1920px){
     .non-phone{
         display: block;

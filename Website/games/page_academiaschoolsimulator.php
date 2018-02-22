@@ -15,8 +15,7 @@
                     <li><a href="">Warrior Defense</a></li>
                 </ol>
                 <div class="devbanner">GAMEBANNER HERE</div>
-                <?php include "../page-headers/page-header_academiaschoolsimulator.php";
-                ?>
+                <?php include "../page-headers/page-header_academiaschoolsimulator.php"; ?>
             </div>
             <hr>
             <div>

@@ -1,4 +1,4 @@
-<h1 class="h3name">Warrior Defense</h1>
+<h3 >Warrior Defense</h3>
 <div class="panel panel-default">
     <div class="panel-header">
         <div class="non-phone">
@@ -78,6 +78,7 @@
             </div>
         </div>
     </div>
+    
     <div class="panel-body">
         <h4>Price: FREE</h4>
         <h5>Developed by:
@@ -95,7 +96,6 @@
     </div>
     <div class="panel-footer"><h4>Get it on</h4>
 <img src="../assets/img/badges/gp-badge.png" alt="Get it on Google Play"> </div>
-</div>
 </div>
 <div class="modal fade" id="firstphoto">
     <div class="modal-dialog">
