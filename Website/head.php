@@ -4,6 +4,7 @@
 <!-- <link rel="stylesheet" href="../assets/css/pushy.css"> -->
 <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
 <link rel="stylesheet" href="../assets/css/style-dev-games.css">
+<link rel="stylesheet" href="../assets/css/backgroundphotos.css">
 
 <meta property="og:url" content="https://thedevsstory.com" />
 <meta property="og:type" content="website" />

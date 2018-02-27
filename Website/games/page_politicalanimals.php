@@ -14,7 +14,7 @@
                     <li><a href="">Games</a></li>
                     <li><a href="">Warrior Defense</a></li>
                 </ol>
-                <div class="devbanner">GAMEBANNER HERE</div>
+                <div class="devbanner politicalanimals"></div>
                 <?php include "../page-headers/page-header_academiaschoolsimulator.php";
                 ?>
             </div>
