@@ -1,4 +1,4 @@
-<h1 class="h3name">Warrior Defense</h1>
+<hr>
 <div class="panel panel-default">
 
 </div>
