@@ -4,7 +4,7 @@
             image here
         </div>
         <div class="panel-body">
-            <h3>Dragon Shack</h3>
+            <h3>Dragon Snack</h3>
             <h4>Price: Free</h4>
             <p>Ea dignissimos velit corrupti aperiam corporis fugit pariatur libero consequatur nam ipsam
                 ad, aut, mollitia ab consectetur dolor sed aspernatur!</p>

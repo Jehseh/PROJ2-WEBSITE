@@ -1,7 +1,7 @@
 <div class="col-lg-4">
     <div class="panel panel-default">
         <div class="panel-header">
-            image here
+            <img src="../assets/img/gamethumbnails/thumbnail_adarnaalamatnimariablanca.jpg" alt="adarna alamat ni maria blanca" style="width: 100%;">
         </div>
         <div class="panel-body">
             <h3>Adarna: Alamat ni Maria Blanca</h3>

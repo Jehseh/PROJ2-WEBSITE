@@ -43,7 +43,7 @@
                                     <div class="row">
                                         <?php
                                             include "panels/panel_brushstrokes.php";
-                                            include "panels/panel_dragonshack.php";
+                                            include "panels/panel_dragonsnack.php";
                                             include "panels/panel_dreamdefense.php";
                                         ?>
                                     </div>
